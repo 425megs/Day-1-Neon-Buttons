@@ -1,22 +1,26 @@
 body {
-background-color: salmon;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
 }
 
-/* button { */
-    /* hover effect
-    continuous looping
-    text black when hovering
-    mirror effect when hovering
-} */
-
-#green {
-color: green;
+h1 {
+    color: white;
 }
 
-#pink {
-color: pink;
+a {
+    position: relative;
+    display: inline;
+    padding: 20px;
+    margin: 40px;
+    color: pink;
 }
 
-#blue {
-color: blue;
+a:hover {
+    background-color: pink;
+    color: black;
+    box-shadow: 0 0 5px rgba(255, 192, 203, 0.71), 0 0 25px rgba(255, 192, 203, 0.5), 0 0 50px rgba(255, 192, 203, 0.684), 0 0 200px rgba(255, 192, 203, 0.5);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #000);
 }
